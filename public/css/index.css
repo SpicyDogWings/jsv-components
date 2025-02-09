@@ -1,3 +1,5 @@
+@import "general-sans.css";
+
 :root {
   --background: #141414;
   --foreground: #eeeeee;
@@ -30,6 +32,7 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--foreground);
+  font-family: GeneralSans-Regular, sans-serif;
 }
 
 body {
